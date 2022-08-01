@@ -8,3 +8,4 @@ if [ $string == "hello" ]
    echo "string is not corrrect"
 fi
    
+echo " hii"
