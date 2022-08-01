@@ -11,6 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
+    - run: sudo chmod 777 prb5.sh
       with:
         args: --acl public-read --follow-symlinks --delete --exclude '.git/*'
       env:
