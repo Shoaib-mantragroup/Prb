@@ -7,5 +7,5 @@ if [ $string == "hello" ]
    else
    echo "string is not corrrect"
 fi
-   
+echo "Hello"
 echo " hii"
